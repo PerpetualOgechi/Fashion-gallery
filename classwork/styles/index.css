@@ -1,0 +1,138 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  background: #cc329e;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  color: #fff;
+}
+body {
+  margin: 0;
+}
+ul {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.sub-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 0 0 0;
+  text-decoration: underline;
+}
+h2 {
+  color: #cc329e;
+  font-size: 25px;
+}
+.african {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 100px;
+  justify-content: space-between;
+  border-bottom: 1px solid #808080;
+}
+.left {
+  width: 400px;
+}
+.right {
+  width: 500px;
+  padding: 10px;
+  border: 5px solid #f0a23d;
+}
+
+img {
+  width: 100%;
+}
+p {
+  font-size: 20px;
+  line-height: 35px;
+}
+.more {
+  margin: 70px 0 0 0;
+}
+button {
+  padding: 10px;
+  margin: 30px 0 0 0;
+  font-size: 16px;
+  background: #f0a23d;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+}
+.left-section {
+  width: 400px;
+  background: #f0b13d;
+  color: #fff;
+  padding: 0 0 0 10px;
+  margin: 30px 0 0 0;
+}
+.middle-section {
+  width: 400px;
+  border-radius: 100%;
+}
+.right-section {
+  width: 400px;
+  background: #3d9ff0;
+  color: #fff;
+  padding: 0 0 0 10px;
+  margin: 30px 0 0 0;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0 30px 0;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0;
+}
+.logo {
+  width: 100px;
+  padding: 0 auto;
+}
+.gallary {
+  width: 150px;
+  border-radius: 100%;
+}
+
+.gallary-1 {
+  width: 150px;
+  border-radius: 100%;
+  margin: -30px 0 0 0;
+}
+.pic {
+  border-radius: 100%;
+  padding: 30px 0 0 0;
+}
+.gallary-container {
+  display: flex;
+}
+.gallary-left {
+  width: 200px;
+}
+.sweetness {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  background: #9432cc;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  justify-content: center;
+  margin-top: ;
+}

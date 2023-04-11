@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/form.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="file">
+        <div class="inner" id="file">
+          <div class="front">
+            <h2>LOGIN</h2>
+            <form>
+              <input type="email" class="input-box" placeholder="Enter Email" />
+              <input
+                type="password"
+                class="input-box"
+                placeholder="Enter Password"
+              />
+              <button type="submit" class="submit-btn">Submit</button>
+              <input type="checkbox" class="check" /> <span>Remember Me</span>
+            </form>
+            <button type="button" class="btn" onclick="openRegister()">
+              I 'm New Here
+            </button>
+            <a href="">Forgotten Password</a>
+          </div>
+          <div class="back">
+            <h2>REGISTER</h2>
+            <form>
+              <input type="text" class="input-box" placeholder="Your Name" />
+              <input type="email" class="input-box" placeholder="Enter Email" />
+              <input
+                type="password"
+                class="input-box"
+                placeholder="Enter Password"
+              />
+              <button type="submit" class="submit-btn">Submit</button>
+              <input type="checkbox" class="check" /> <span>Remember Me</span>
+            </form>
+            <button type="button" class="btn" onclick="openLogin()">
+              I 've an acount
+            </button>
+            <a href="">Forgotten Password</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var file = document.getElementById("file");
+      function openRegister() {
+        file.style.transform = "rotateY(-180deg)";
+      }
+      function openLogin() {
+        file.style.transform = "rotateY(0deg)";
+      }
+    </script>
+  </body>
+</html>
